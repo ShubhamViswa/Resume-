@@ -1,4 +1,3 @@
-# Resume-
 
 # Shubham Vishwakarma's CV
 
