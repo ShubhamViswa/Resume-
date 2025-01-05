@@ -1,0 +1,69 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue
+}
+
+\begin{document}
+
+% Header Section
+\begin{center}
+    {\Huge \textbf{Shubham Vishwakarma}} \\
+    \vspace{5pt}
+    \textbf{Email:} \href{mailto:example@example.com}{example@example.com} \\
+    \textbf{Phone:} +91-1234567890 \\
+    \textbf{LinkedIn:} \href{linkedin.com}{linkedin.com/in/} \\
+    \textbf{GitHub:} \href{https://github.com/}{github.com/} \\
+    \textbf{Portfolio:} \href{https://.com}{portfolio.com} \\
+\end{center}
+
+% Body Section: Two Columns
+\begin{multicols}{2}
+
+% Left Column: Projects
+\section*{Projects}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Project 1: E-commerce Website} \\
+        Developed a full-stack e-commerce website using React.js, Node.js, and MongoDB. Integrated payment gateways and implemented responsive design.
+    \item \textbf{Project 2: Real-Time Chat Application} \\
+        Built a chat application using Socket.IO and Express.js. Features include one-to-one and group messaging.
+    \item \textbf{Project 3: Portfolio Website} \\
+        Designed and developed a personal portfolio using HTML, CSS, JavaScript, and Bootstrap to showcase skills and projects.
+\end{itemize}
+
+% Right Column: Skills, Education, and Courses
+\section*{Skills}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Programming Languages:} JavaScript, Python, Java
+    \item \textbf{Frontend Development:} React.js, HTML, CSS, Bootstrap
+    \item \textbf{Backend Development:} Node.js, Express.js
+    \item \textbf{Databases:} MongoDB, MySQL
+    \item \textbf{Tools:} Git, VS Code, Postman
+\end{itemize}
+
+\section*{Education}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Bachelor of Technology in Computer Science} \\
+        XYZ University, 2020-2024
+    \item \textbf{High School:} ABC School, 2018-2020
+\end{itemize}
+
+\section*{Certifications and Courses}
+\begin{itemize}[leftmargin=*]
+    \item React - The Complete Guide (Udemy)
+    \item JavaScript Algorithms and Data Structures (freeCodeCamp)
+    \item Full-Stack Development Bootcamp (Coursera)
+\end{itemize}
+
+\end{multicols}
+
+\end{document}
